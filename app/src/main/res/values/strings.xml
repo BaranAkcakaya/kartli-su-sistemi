@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">deneme</string>
+    <string name="toolbar_name">GİRİŞ EKRANI</string>
+
+    <string name="title_activity_giris">giris</string>
+    <string name="tab_text_1">KULLANICI</string>
+    <string name="tab_text_2">YÖNETİCİ</string>
+    <string name="db1">"/data/data/com.example.deneme2/databases/"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="ekran_degiskeni">1</string>
+
+</resources>

@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:paddingTop="10dp"
+    android:background="@drawable/giris">
+
+    <EditText
+        android:id="@+id/yoneticiid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="Yonetici ID" />
+
+    <EditText
+        android:id="@+id/yoneticiparola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Parola"/>
+
+
+    <Button
+        android:id="@+id/yoneticiSignUp"
+        style="@android:style/Widget.EditText"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="10sp"
+        android:background="@color/colorPrimary"
+        android:shadowColor="@color/design_default_color_primary_dark"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="5"
+        android:text="Giris Yap"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:onClick="yonetici_giris_yap"
+        />
+
+
+</LinearLayout>

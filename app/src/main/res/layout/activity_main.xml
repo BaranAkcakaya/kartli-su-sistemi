@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kullanici.kullanici_ekran"
+    android:background="@drawable/resim"
+
+    android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen">
+
+    <Button
+        android:id="@+id/fatura"
+        android:layout_width="343dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:alpha="0.75"
+        android:background="@drawable/rounded_button"
+        style="@android:style/Widget.EditText"
+        android:drawableLeft="@drawable/bill"
+        android:gravity="center_vertical"
+        android:radius="150dp"
+        android:shape="rectangle"
+
+        android:text="FATURA"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="35sp"
+
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:onClick="faturaclick"/>
+
+    <Button
+        android:id="@+id/ariza"
+        android:layout_width="343dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="8dp"
+        android:alpha="0.75"
+
+        android:background="@drawable/rounded_button"
+        android:drawableLeft="@drawable/tools"
+        android:gravity="center_vertical"
+        android:radius="150dp"
+
+        android:shape="rectangle"
+        android:text="ARIZA KAYDI"
+        android:textColor="@android:color/holo_green_dark"
+
+        android:textSize="35sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/abone"
+        android:onClick="arizaclick"/>
+
+    <Button
+        android:id="@+id/abone"
+        android:layout_width="343dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="8dp"
+        android:alpha="0.75"
+        android:background="@drawable/rounded_button"
+
+        android:drawableLeft="@drawable/users"
+        android:gravity="center_vertical"
+        android:radius="150dp"
+        android:shape="rectangle"
+
+        android:text="ABONE BİLGİLERİ"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="35sp"
+
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fatura"
+        android:onClick="bilgilerclick"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="279dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="ÇANAKKALE KARTLI SU TAKİP SİSTEMİ"
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

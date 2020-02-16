@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.KartliSuSistemi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name="com.example.KartliSuSistemi.Yonetici.yonetici_sube"></activity>
+        <activity android:name="com.example.KartliSuSistemi.Yonetici.yonetici_eleman" />
+        <activity android:name="com.example.KartliSuSistemi.Yonetici.yonetici_arama" />
+        <activity android:name="com.example.KartliSuSistemi.Kullanici.abone_bilgiler" />
+        <activity android:name="com.example.KartliSuSistemi.Kullanici.Arizakayit" />
+        <activity android:name="com.example.KartliSuSistemi.giris_main" />
+        <activity
+            android:name="com.example.KartliSuSistemi.girisActivity"
+            android:label="@string/title_activity_giris" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name="com.example.KartliSuSistemi.Yonetici.Yonetici">
+
+        </activity>
+        <activity android:name="com.example.KartliSuSistemi.Kullanici.kullanici_ekran" />
+    </application>
+
+</manifest>

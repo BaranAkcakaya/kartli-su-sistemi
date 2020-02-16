@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Yonetici.Yonetici"
+    android:background="@drawable/backgr"
+
+    android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen">
+    >
+
+    <Button
+        android:id="@+id/yabone"
+        android:layout_width="343dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:alpha="0.75"
+        android:background="@drawable/rounded_button"
+
+        android:drawableLeft="@drawable/business"
+        android:gravity="center_vertical"
+        android:radius="150dp"
+        android:shape="rectangle"
+
+
+        android:text="ABONE BİLGİLERİ"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="32sp"
+
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ytextView"
+        android:onClick="yaboneclick"/>
+
+    <Button
+        android:id="@+id/sube"
+        android:layout_width="343dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="8dp"
+        android:alpha="0.75"
+
+        android:background="@drawable/rounded_button"
+        android:drawableLeft="@drawable/company"
+        android:gravity="center_vertical"
+        android:radius="150dp"
+
+        android:shape="rectangle"
+        android:text="ŞUBE BİLGİLERİ"
+        android:textColor="@android:color/holo_green_dark"
+
+        android:textSize="35sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eleman"
+        android:onClick="ysubeclick"
+        />
+
+    <Button
+        android:id="@+id/eleman"
+        android:layout_width="343dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="8dp"
+        android:alpha="0.75"
+        android:background="@drawable/rounded_button"
+
+        android:drawableLeft="@drawable/employee"
+        android:gravity="center_vertical"
+        android:radius="150dp"
+        android:shape="rectangle"
+
+        android:text="ELEMAN BİLGİLERİ"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="32sp"
+
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yabone"
+        android:onClick="yelemanclick"/>
+
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="81dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:alpha="0.85"
+        android:background="@drawable/rounded_button"
+        android:drawableTop="@drawable/admin"
+        android:gravity="center_vertical"
+        android:radius="150dp"
+
+
+        android:shape="rectangle"
+        android:textColor="@android:color/holo_green_dark"
+
+        android:textSize="32sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/ytextView"
+        android:layout_width="309dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="YÖNETİCİ ARAYÜZÜ"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/admin" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
