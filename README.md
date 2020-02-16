@@ -1,2 +1,2 @@
 # Kartli Su Sistemi
-Veri Tabanı Yönetim Sistemi Dönem Ödevi
+Baran Akçakaya ve Bircan Arslan ile yaptığımız Veri Tabanı Yönetim Sistemi Dönem Ödevi
